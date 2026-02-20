@@ -4,7 +4,7 @@
 A small local tool that redacts **Bcc** and masks **email usernames** in PDFs while keeping the domain.
 
 Examples:
-- `A.Day@npa.co.uk` becomes `[redacted]@npa.co.uk`
+- `A.Jay@npa.co.uk` becomes `[redacted]@npa.co.uk`
 - `Bcc: alice@example.com, bob@example.com` becomes `Bcc: [redacted]` and any wrapped continuation lines are removed
 
 This keeps documents readable while removing personal identifiers.
@@ -67,7 +67,7 @@ You can also choose:
 - Or mask only a personal list
 
 You can keep certain addresses visible (optional):
-- Keep emails, example: `advocacy@thereasonableadjustment.co.uk`
+- Keep emails, example: `jimmy@thereasonableadjustment.co.uk`
 - Keep domains, example: `thereasonableadjustment.co.uk`
 
 Your settings are saved into `config.json`.
