@@ -1,2 +1,0 @@
-pymupdf>=1.23.0
-gradio>=4.0.0
