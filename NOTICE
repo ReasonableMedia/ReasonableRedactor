@@ -1,0 +1,11 @@
+ReasonableRedactor
+Copyright (C) The Reasonable Adjustment
+https://thereasonableadjustment.co.uk/
+
+This program is free software licensed under the GNU Affero General Public
+License v3.0 or later. See LICENSE for the full text.
+
+This product includes MuPDF (https://mupdf.readthedocs.io/), copyright (C)
+Artifex Software, Inc., used via the "mupdf" npm package and licensed under
+the GNU Affero General Public License v3.0. MuPDF is compiled to WebAssembly
+and, in the offline edition, embedded in the HTML file.

@@ -1,0 +1,14 @@
+{
+  "name": "reasonableredactor",
+  "version": "1.0.0",
+  "description": "Local, in-browser PDF redaction for legal and everyday documents. Files never leave the device.",
+  "license": "AGPL-3.0-or-later",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-offline.mjs",
+    "hash": "node scripts/hash.mjs"
+  },
+  "dependencies": {
+    "mupdf": "1.28.0"
+  }
+}
